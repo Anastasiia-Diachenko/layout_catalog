@@ -29,6 +29,8 @@
     line-height: 60px;
     color: #000;
 
+    transition: color 1s;
+
     &:hover {
       color: #00acdc;
     }

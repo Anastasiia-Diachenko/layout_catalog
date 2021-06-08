@@ -14,12 +14,19 @@
     padding: 14px;
     margin-top: 50px;
   
-  &__image {
-    display: block;
-    width: 160px;
-    height: 134px;
-    margin: 15px auto 45px;
-  }
+    &__image {
+      height: 145px;
+      width: 168px;
+      padding: 5px;
+      margin-bottom: 30px;
+
+      transition: transform 0.4s;
+
+      &:hover {
+        transform: scale(1.2);
+        border: 3px solid #f3f3f3;
+      }
+    }
   
   &__product {
     margin: 0;
@@ -77,6 +84,8 @@
     background-color: #00acdc;
     border-radius: 5px;
     color: white;
+
+    transition: background-color 1s, color 1s;
   
   &:hover {
     background-color: #fff;
